@@ -1,25 +1,16 @@
-name: Display Current DateTime
+name: Date-and-time
 
 on:
   push:
-    branches: ['**']
+    branches:
+      - '*'
   pull_request:
-    branches: ['**']
+    branches:
+      - '*'
 
 jobs:
-  show-datetime:
-    name: Show current date and time
+  datetime:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        
-      - name: Display current UTC time
-        run: echo "Current UTC time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-        
-      - name: Display current local time
-        run: echo "Current local time: $(date '+%Y-%m-%d %H:%M:%S %Z')"
-        
-      - name: Display timestamp
-        run: echo "Timestamp: $(date +%s)"
+      - name: Date-and-time
+        run: date
