@@ -1,0 +1,16 @@
+name: Date-and-time
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  datetime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Date-and-time
+        run: date
