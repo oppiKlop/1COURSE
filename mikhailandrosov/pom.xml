@@ -20,7 +20,7 @@
                             <transformers>
                                 <transformer implementation=
                                                      "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.mipt.fokinvladislav.Application</mainClass>
+                                    <mainClass>com.mipt.mikhailandrosov.Application</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
