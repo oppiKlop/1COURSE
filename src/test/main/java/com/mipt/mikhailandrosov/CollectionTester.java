@@ -1,7 +1,6 @@
-package com.mipt;
+package com.mipt.mikhailandrosov;
 
 import java.util.*;
-
 import org.junit.jupiter.api.Test;
 
 public class CollectionPerformanceTester {
