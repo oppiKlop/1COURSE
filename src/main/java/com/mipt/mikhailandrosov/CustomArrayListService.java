@@ -1,4 +1,4 @@
-package com.mipt;
+package com.mipt.mikhailandrosov;
 
 public interface CustomList<A> extends Iterable<A> {
   
