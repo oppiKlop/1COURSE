@@ -1,11 +1,3 @@
-package com.mipt;
-
-import java.util.Optional;
-
-interface DataService {
-  Optional<String> findDataByKey(String key);
-
-  void saveData(String key, String data);
-
+package com.mipt.mikhailandrosov;
   boolean deleteData(String key);
 }
