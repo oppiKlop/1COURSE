@@ -1,4 +1,4 @@
-package com.mipt;
+package com.mipt.mikhailandrosov;
 
 import java.util.HashMap;
 import java.util.Map;
